@@ -1,0 +1,11 @@
+:root {
+  /* Ajusta estos hex si tienes los oficiales exactos */
+  --fesc-primary: #a11217; /* rojo FESC */
+  --fesc-primary-dark: #7d0e12;
+  --fesc-accent: #f0b429; /* dorado/acento */
+  --fesc-bg: #f7f7f7;
+  --fesc-surface: #ffffff;
+  --fesc-text: #1f2937;
+  --fesc-muted: #6b7280;
+  --fesc-border: #e5e7eb;
+}
