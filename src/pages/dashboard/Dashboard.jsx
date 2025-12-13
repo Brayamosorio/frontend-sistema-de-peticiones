@@ -4,7 +4,7 @@ function StatCard({ label, value, description }) {
   return (
     <div
       className="transform rounded-xl border bg-white p-6 shadow-sm transition duration-200 ease-out hover:scale-[1.03] hover:shadow-lg"
-      style={{ borderColor: 'var(--fesc-border)', transformOrigin: 'center' }}
+      style={{ borderColor: '#a11216', transformOrigin: 'center' }}
     >
       <p className="text-sm font-medium text-slate-600">{label}</p>
       <p className="mt-2 text-3xl font-bold text-slate-800">{value}</p>

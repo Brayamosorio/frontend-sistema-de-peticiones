@@ -20,9 +20,12 @@ export default function Sidebar() {
   return (
     <aside
       className="flex w-64 flex-col text-white"
-      style={{ background: '#a11216' }}
+      style={{
+        background:
+          'linear-gradient(180deg, #7a0f13 0%, #5a0b0f 55%, #350508 100%)',
+      }}
     >
-      <div className="flex h-44 items-center justify-center border-b border-white/20 px-2 py-3">
+      <div className="flex h-44 items-center justify-center border-b border-[#5a0b0f] px-3 py-4 rounded-b-xl overflow-hidden">
         <img
           src={logo}
           alt="FESC Peticiones"
