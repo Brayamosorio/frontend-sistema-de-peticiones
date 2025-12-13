@@ -22,9 +22,10 @@ export default function Sidebar() {
       className="flex w-64 flex-col text-white"
       style={{ background: 'var(--fesc-primary)' }}
     >
-      <div className="flex h-16 items-center justify-center border-b border-white/20 text-lg font-bold">
-        FESC • Peticiones
+      <div className="flex h-100 items-center justify-center border-b border-white/20">
+      <img src={logo} alt="FESC Peticiones" className="h-100 w-100" />
       </div>
+
 
       <nav className="flex-1 space-y-2 p-3">
         {items.map((it) => (
