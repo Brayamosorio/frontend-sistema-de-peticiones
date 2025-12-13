@@ -20,7 +20,7 @@ export default function Sidebar() {
   return (
     <aside
       className="flex w-64 flex-col text-white"
-      style={{ background: 'var(--fesc-primary)' }}
+      style={{ background: '#a11216' }}
     >
       <div className="flex h-44 items-center justify-center border-b border-white/20 px-2 py-3">
         <img
